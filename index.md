@@ -14,14 +14,14 @@ hero:
       link: /guides/
     - theme: alt
       text: Issues
-      link: /Issues/BuildErrorWithGltFast
+      link: /Issues/buildErrorWithGltFast
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Import 3D models
+    details: Runtime importing 3D models(gltf/glb/fbx/obj)
+  - title: Interact with 3D models
+    details: Able to grab models
+  - title: View models in different modes
+    details: Able to see models in wireframe or x-ray
 ---
 

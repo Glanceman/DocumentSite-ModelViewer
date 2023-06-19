@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base :'/DocumentSite-ModelViewer/',
+  base: '/DocumentSite-ModelViewer/',
   title: "Model Viewer",
   description: "Doucmentation Site",
   themeConfig: {
@@ -22,15 +22,23 @@ export default defineConfig({
         ]
       }],
 
-      '/guides/': [{
-        text: 'Guides',
-        items: [
-          { text: 'Start', link: '/guides/index' },
-          { text: 'Get To Use', link: '/guides/getUsed' },
-          { text: 'Configuration', link: '/guides/config' },
-        ]
-      }],
-      
+      '/guides/': [
+        {
+          text: 'Guides',
+          items: [
+            { text: 'Start', link: '/guides/index' },
+            { text: 'Get To Use', link: '/guides/getUsed' },
+            { text: 'Configuration', link: '/guides/config' },
+          ]
+        },
+        {
+          text:"Folder Structure",
+          items:[
+            {text:"Overview",link: "/guides/folderStructure"},
+          ]
+        }
+      ],
+
       '/issues/': [{
         text: 'Issues',
         items: [
@@ -40,7 +48,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Glanceman/DocumentSite-ModelViewer' }
     ]
   }
 })

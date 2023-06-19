@@ -12,6 +12,8 @@
 
 ## Installation
 
+Copy the `SketchfabWrapper` folder to `Assest` folder;
+
 ## Required setup before using the library
 1. Enter your Client ID and Client Secret
 :::details Steps

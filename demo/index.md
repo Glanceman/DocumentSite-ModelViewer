@@ -63,7 +63,7 @@ The ModelViewer enables users to view models in virtual reality
         :::
     4. Click the `Blue` icon which is your model and take a cup of coffee
         :::info
-        You can change the directory by click the top input field and `Green` icon next to it
+        You can change the directory by clicking the top input field and `Green` icon next to it
         :::     
 
 

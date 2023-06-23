@@ -5,7 +5,7 @@ The ModelViewer enables users to view models in virtual reality
 ## Things can do
 
 - ### Retrieve Model from Sketchfab
-    1. Open the **Sketchfab menu** (`m` on Keyboard -> **Features** -> **Sketchfab**)
+    1. Open the **Sketchfab menu** (`m` on Keyboard -> **Features** -> **Sketchfab**, hold `Y` on controller)
             <table>
             <tr>
                 <td>

@@ -14,7 +14,7 @@ hero:
       link: /guides/
     - theme: alt
       text: Issues
-      link: /Issues/buildErrorWithGltFast
+      link: /issues/buildErrorWithGltFast
 
 features:
   - title: Import 3D models

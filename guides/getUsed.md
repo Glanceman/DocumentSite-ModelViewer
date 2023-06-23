@@ -96,7 +96,7 @@ public static async Task<List<SketchfabModel>> SearchModel(string query, UnityWe
     public override async void Interact()
     {
         background.sprite = _loadSprite;
-        var gameObject = await API.ImportModelID(_model.Uid);
+        var gameObject = await API.ImportModelByID(_model.Uid);
         if (gameObject != null)
         {
             Debug.Log("get the object success");
@@ -121,7 +121,7 @@ public static async Task<List<SketchfabModel>> SearchModel(string query, UnityWe
 ### Function
 
 ``` csharp
-    public async static Task<GameObject> ImportModelID(string guid, Action OnImporting =null);
+    public async static Task<GameObject> ImportModelByID(string guid, Action OnImporting =null);
 ```
 #### Input
 
@@ -139,3 +139,5 @@ public static async Task<List<SketchfabModel>> SearchModel(string query, UnityWe
 |---------                                    | ----------------  | -----------              |
 |GameObject                                   | gameObject        |                          |
 :::
+
+

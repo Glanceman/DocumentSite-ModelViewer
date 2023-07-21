@@ -1,6 +1,6 @@
 # Get to use
 
-## Retrieve Model List
+## Retrieve Default List of Models
 
 ### Example
 
@@ -16,7 +16,7 @@
         FillModelList(modelList);
     }
 ```
-### Function 
+### Functions 
 
 ```csharp
 public static async Task<List<SketchfabModel>> GetDefaultModelList(Action OnLoading=null);
@@ -39,6 +39,32 @@ public static async Task<List<SketchfabModel>> GetDefaultModelList(UnityWebReque
 |---------                | ---------------- | -----------              |
 |List`<`sketchfabModel`>` | SketchfabModels  | Each model contains **Uid**, **Name**, **IsDownloadable**, **Description** , **FaceCount**, **VertexCount**, and **Thumbnail** |
 :::
+
+
+## Retrieve List of Purchased Models
+```csharp
+public static async Task<List<SketchfabModel>> GetPurchasedModelList();
+```
+
+## Retrieve List of Liked Models
+```csharp
+public static async Task<List<SketchfabModel>> GetMyModelList();
+```
+
+## Retrieve List of Models from Collection
+```csharp
+public static async Task<List<SketchfabCollection>> GetMyCollectionList();
+public static async Task<List<SketchfabModel>> GetCollectionModelList(string id)
+```
+### Input
+
+:::details
+|Class                                        | Input            | Description              |
+|---------                                    | ---------------- | -----------              |
+|string | id      | collection id which is retrieved from `SketchfabCollection` |
+
+:::
+
 
 
 ## Search Model
